@@ -20,6 +20,9 @@
 
 body {
     padding: 0 2em;
+    background-color: #fff0f5;
+    color: #1a1a1a;
+    
 }
 
 .wrapper {
@@ -31,6 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 1.3em;
+    color: #7d2fff;
 }
 
 .header-right {
@@ -41,7 +45,25 @@ body {
 
 .header-title {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 3em;
     padding: 12px;
+    color: #ba0070;
+}
+
+a:link {
+    color: #7d2fff;
+}
+
+a:visited {
+    color: #7d2fff;
+}
+
+a:hover {
+    color: #47c4ce;
+    background-color: #eedeff;
+}
+
+a:active {
+    color: #7d2fff;
 }

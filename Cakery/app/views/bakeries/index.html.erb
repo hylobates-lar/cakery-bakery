@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">Welcome to Cakery Bakery!</h1>
+
 
 <div class="container">
     <div class="row">
@@ -13,14 +13,14 @@
         </div>
     </div>
 </div>
-<br>
-<h2>Featured Bakers: </h2>
+<hr>
+<h4>Featured Bakers: </h4>
 
 <div class="baker-wrapper">
     <% @bakers.each do |baker| %>
         <% if baker.star_baker %>
-            <div class="card text-center" style="width: 350px; margin-bottom:14px;">
-                <img src="<%= baker.img_url %>" class="card-img-top" alt="baker photo" width="350" height="350" />
+            <div class="card text-center" style="width: 200px; margin-bottom:14px;">
+                <img src="<%= baker.img_url %>" class="card-img-top" alt="baker photo" width="200" height="200" />
                 <div class="card-body">
                     <p class="card-text">
                     ⭐️ <%= link_to baker.name, baker_path(baker) %>
@@ -37,3 +37,4 @@
 <% else %>
     <p><%= button_to 'Login', login_path, method: :get %></p>
 <% end %>
+<hr>

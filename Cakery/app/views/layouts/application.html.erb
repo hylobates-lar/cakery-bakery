@@ -7,6 +7,7 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
@@ -15,7 +16,7 @@
         <div class="header-left">
           <ul class="nav">
             <li class="nav-item">
-              <%= link_to "About", bakery_path(Bakery.first.about), :class => "nav-link" %>
+              <%= link_to "About", bakery_path(Bakery.first.id), :class => "nav-link" %>
             </li>
             <li class="nav-item">
               <%= link_to "Cakes", cakes_path, :class => "nav-link" %>
@@ -32,7 +33,8 @@
         </div>
       </div>
       <h1 class="header-title"><%= Bakery.first.name %></h1>
-      <h5 style="text-align:center;">Our bakery is freakin' sweet</h5>
+      <style> @import url(’https://fonts.googleapis.com/css?family=Pacifico&display=swap');</style>
+      <h5 style="text-align:center; color:#7d2fff;">Our bakery is freakin' sweet</h5>
       <hr>
       <%= yield %>
     </div>

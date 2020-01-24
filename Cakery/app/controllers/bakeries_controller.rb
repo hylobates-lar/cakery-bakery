@@ -5,7 +5,12 @@ class BakeriesController < ApplicationController
     
     def index
         @cakes = Cake.all 
-        @bakers = Baker.all 
+        @bakers = Baker.all
+        
+        @star_bakers = @bakers.select do |baker|
+            baker.star_baker
+        end
+        
     end
 
     def show
