@@ -24,22 +24,22 @@ A logged in user (bakery staff) can
 ## Screenshots
 
 Home Page
-![home](/home.png)
+![home](mod2/cakery-bakery/home.png)
 
 Bakers
-![bakers](/bakers.png)
+![bakers](mod2/cakery-bakery/bakers.png)
 
 Baker Show Page
-![baker-show](/baker-show.png)
+![baker-show](mod2/cakery-bakery/baker-show.png)
 
 Cakes
-![cakes](/cakes.png)
+![cakes](mod2/cakery-bakery/cakes.png)
 
 Cake Show Page
-![cake-show](/cake-show.png)
+![cake-show](mod2/cakery-bakery/cake-show.png)
 
 Bakery About Page
-![about](/about.png)
+![about](mod2/cakery-bakery/about.png)
 
 
 ## Dev Tools
